@@ -16,7 +16,7 @@ Una volta che hai salvato la foto non ti ressta che aggiungerla alla lista delle
 Le opere andranno sempre aggiunte come segue:
 
 {
-		"id_quadro" : Vedi l'ultimo ID e fai +1 (ESEMPIO: se l'ultima foto è apartment complex e ha come ID 21,  tu qui scriverai 22,
+		"id_quadro" : Vedi l'ultimo ID e fai +1 (ESEMPIO: se l'ultima foto è apartment complex e ha come ID 21,  tu qui scriverai 22) <br>
 		"nome_quadro_it" : "Nome quadro in ITALIANO",
 		"nome_quadro_en" : "Nome quadro in INGLESE",
 		"tipo_quadro_id" : 2 o 3 o 4, (RICORDA: 2=Dipinti/Paintings, 3=Disegni/Drawings, 4= Stampe/printmaking
