@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-      <meta name="robots" content="index, follow">
-      <meta name="keywords" content="art, paintings, drawings, exhibitions, contemporary art">
-      <meta name="description" content="Explore the art of Heather Susanna, including paintings, drawings, and exhibitions. Find contemporary artworks and contact the artist.">
-      <meta name="author" content="Heather Susanna">
-      <meta property="og:title" content="Heather Susanna Artworks">
-      <meta property="og:description" content="Explore unique paintings and drawings by Heather Susanna.">
-      <meta property="og:image" content="URL_dell_immagine_da_condividere">
-      <meta property="og:url" content="URL_della_pagina">
-      <meta name="twitter:card" content="summary_large_image">
-      <title>Freelancer - Start Bootstrap Theme</title>
-      <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-      <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-      <link href="css/styles.css" rel="stylesheet" />
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="js/scripts.js"></script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Freelancer - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
         <style>
             .navbar { background-color: #B2B2B2 !important; }
             .gallery { margin-top: 150px; }
@@ -39,6 +30,18 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="Mostre.html">Mostre</a></li>
                         <li class="nav-item"><a class="nav-link" href="Biografia_e_Contatti.html">Biografia e Contatti</a></li>
+                        <li class="nav-item dropdown">
+                            <form id="filtro-form">
+                                <label for="tipo">Filter:</label>
+                                <select name="tipo" id="tipo">
+                                    <option value="all">All</option>
+                                    <option value="2">Paintings</option>
+                                    <option value="3">Drawings</option>
+                                    <option value="4">Print Making</option>
+                                </select>
+                                <input type="submit" value="Filter">
+                            </form>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -67,6 +70,7 @@
                         data.forEach(opera => {
                             let card = document.createElement('div');
                             card.className = 'col-lg-4 col-md-6 col-sm-12 mb-4 opera';
+                            card.setAttribute('data-tipo', opera.tipo);
                             card.innerHTML = `
                                 <div class="card h-100">
                                     <img class="card-img-top" src="${opera.immagine}" alt="${opera.nome_quadro_it}" style="max-width: 100%; max-height: 300px; object-fit: contain;">
@@ -83,20 +87,17 @@
                         });
                     });
             });
-        </script>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                let overlay = document.getElementById('overlay');
-                let overlayImg = document.getElementById('overlay-img');
-                document.addEventListener('click', function(e) {
-                    if (e.target.classList.contains('card-img-top')) {
-                        overlayImg.src = e.target.src;
-                        overlay.style.display = 'flex';
+            document.getElementById('filtro-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                let filtroTipo = document.getElementById('tipo').value;
+                let opere = document.querySelectorAll('.opera');
+                opere.forEach(opera => {
+                    if (filtroTipo === 'all' || opera.getAttribute('data-tipo') === filtroTipo) {
+                        opera.style.display = 'block';
+                    } else {
+                        opera.style.display = 'none';
                     }
-                });
-                overlay.addEventListener('click', function() {
-                    overlay.style.display = 'none';
                 });
             });
         </script>
