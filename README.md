@@ -26,5 +26,6 @@ Le opere andranno sempre aggiunte come segue:
 		"descrizione" : "descrizione ITALIANA, anno",<br>
 		"descrizioni_en" : "descrizione INGLESE , anno"<br>
 	<br>}<br>
- Se vuoi aggiungere più quadri ti basterà fare la stessa cosa più volte
+ Se vuoi aggiungere più quadri ti basterà fare la stessa cosa più volte<br>
+ Una volta che hai scritto tutti i quadri, scorri verso l'alto fino a che non leggi Commit Changes e conferma. Una volta fatto ciò in 5/10m il sito si aggiornerà
 
