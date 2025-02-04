@@ -109,6 +109,16 @@
                     }
                 });
             });
+             document.addEventListener('click', function(event) {
+                if (event.target.classList.contains('card-img-top')) {
+                    document.getElementById('overlay-img').src = event.target.src;
+                    document.getElementById('overlay').style.display = 'flex';
+                }
+            });
+
+            document.getElementById('overlay').addEventListener('click', function() {
+                this.style.display = 'none';
+            });
         </script>
     </body>
 </html>
