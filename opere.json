@@ -1,0 +1,211 @@
+[
+	{
+		"id_quadro" : 1,
+		"nome_quadro_it" : "Nap",
+		"nome_quadro_en" : "Nap",
+		"tipo_quadro_id" : 3,
+		"dimensioni_quadro_id" : 3,
+		"immagine" : "1_Nap.jpg",
+		"dimensioni_num" : "150 x 420",
+		"descrizione" : "Inchiostro e acquerello, 2024",
+		"descrizioni_en" : "Ink and Watercolor Pencil, 2024"
+	},
+	{
+		"id_quadro" : 2,
+		"nome_quadro_it" : "Viale Di Villa Pamphili",
+		"nome_quadro_en" : "Viale Di Villa Pamphili",
+		"tipo_quadro_id" : 2,
+		"dimensioni_quadro_id" : 3,
+		"immagine" : "2_Viale_di_Villa_Pamphili.jpg",
+		"dimensioni_num" : "100 x 150",
+		"descrizione" : "Dipinto a olio, 2024",
+		"descrizioni_en" : "Oil painting, 2024"
+	},
+	{
+		"id_quadro" : 3,
+		"nome_quadro_it" : "The Three Graces",
+		"nome_quadro_en" : "The Three Graces",
+		"tipo_quadro_id" : 2,
+		"dimensioni_quadro_id" : 2,
+		"immagine" : "3_Three_Graces.jpg",
+		"dimensioni_num" : "70 x 50",
+		"descrizione" : "Dipinto a olio, 2024",
+		"descrizioni_en" : "Oil painting, 2024"
+	},
+	{
+		"id_quadro" : 4,
+		"nome_quadro_it" : "After Niccolò Pussino",
+		"nome_quadro_en" : "After Niccolò Pussino",
+		"tipo_quadro_id" : 2,
+		"dimensioni_quadro_id" : 2,
+		"immagine" : "4_After_Niccolo.jpg",
+		"dimensioni_num" : "70 x 50",
+		"descrizione" : "Dipinto a olio, 2024",
+		"descrizioni_en" : "Oil painting, 2024"
+	},
+	{
+		"id_quadro" : 5,
+		"nome_quadro_it" : "The Shower",
+		"nome_quadro_en" : "The Shower",
+		"tipo_quadro_id" : 2,
+		"dimensioni_quadro_id" : 2,
+		"immagine" : "5_The_shower.jpg",
+		"dimensioni_num" : "90 x 60",
+		"descrizione" : "Dipinto a olio, 2024",
+		"descrizioni_en" : "Oil painting, 2024"
+	},
+	{
+		"id_quadro" : 6,
+		"nome_quadro_it" : "Into The Woodshed",
+		"nome_quadro_en" : "Into The Woodshed",
+		"tipo_quadro_id" : 2,
+		"dimensioni_quadro_id" : 2,
+		"immagine" : "6_Into_the_woodshed.jpg",
+		"dimensioni_num" : "90 x 60",
+		"descrizione" : "Dipinto a olio, 2024",
+		"descrizioni_en" : "Oil painting, 2024"
+	},
+	{
+		"id_quadro" : 7,
+		"nome_quadro_it" : "Roots",
+		"nome_quadro_en" : "Roots",
+		"tipo_quadro_id" : 2,
+		"dimensioni_quadro_id" : 2,
+		"immagine" : "7_Roots.jpg",
+		"dimensioni_num" : "50 x 70",
+		"descrizione" : "Dipinto a olio, 2024",
+		"descrizioni_en" : "Oil Painting, 2024"
+	},
+	{
+		"id_quadro" : 8,
+		"nome_quadro_it" : "La Tempesta",
+		"nome_quadro_en" : "La Tempesta",
+		"tipo_quadro_id" : 2,
+		"dimensioni_quadro_id" : 2,
+		"immagine" : "8_La_tempesta.jpg",
+		"dimensioni_num" : "70 x 150 ",
+		"descrizione" : "Dipinto a olio, 2024",
+		"descrizioni_en" : "Oil painting, 2024"
+	},
+	{
+		"id_quadro" : 9,
+		"nome_quadro_it" : "L'Eremo",
+		"nome_quadro_en" : "L'Eremo",
+		"tipo_quadro_id" : 2,
+		"dimensioni_quadro_id" : 3,
+		"immagine" : "9_Leremo.jpg",
+		"dimensioni_num" : "150 x 90",
+		"descrizione" : "Dipinto a olio, 2024",
+		"descrizioni_en" : "Oil painting, 2024"
+	},
+	{
+		"id_quadro" : 10,
+		"nome_quadro_it" : "Red Couch",
+		"nome_quadro_en" : "Red Couch",
+		"tipo_quadro_id" : 2,
+		"dimensioni_quadro_id" : 2,
+		"immagine" : "10_Red_couch.jpg",
+		"dimensioni_num" : "30 x 45",
+		"descrizione" : "Dipinto a olio, 2024",
+		"descrizioni_en" : "Oil painting, 2024"
+	},
+	{
+		"id_quadro" : 11,
+		"nome_quadro_it" : "地下鉄 (Chikatetsu) / Passeggiata",
+		"nome_quadro_en" : "地下鉄 (Chikatetsu) / Passeggiata",
+		"tipo_quadro_id" : 3,
+		"dimensioni_quadro_id" : 1,
+		"immagine" : "11_Passeggiata.jpg",
+		"dimensioni_num" : "100 x 130",
+		"descrizione" : "Disegno e frottage in grafite, 2022/2023",
+		"descrizioni_en" : "Graphite Drawing and Frottage, 2022/2023"
+	},
+	{
+		"id_quadro" : 12,
+		"nome_quadro_it" : "Consolations",
+		"nome_quadro_en" : "Consolations",
+		"tipo_quadro_id" : 4,
+		"dimensioni_quadro_id" : 1,
+		"immagine" : "12_Consolations.jpg",
+		"dimensioni_num" : "25 x 45",
+		"descrizione" : "Monotipo su carta, 2023",
+		"descrizioni_en" : "Monotype on paper, 2023"
+	},
+	{
+		"id_quadro" : 13,
+		"nome_quadro_it" : "Green Window",
+		"nome_quadro_en" : "Green Window",
+		"tipo_quadro_id" : 2,
+		"dimensioni_quadro_id" : 1,
+		"immagine" : "13_Green_window.jpg",
+		"dimensioni_num" : "45 x 45",
+		"descrizione" : "Dipinto a olio, 2023",
+		"descrizioni_en" : "Oil painting, 2023"
+	},
+	{
+		"id_quadro" : 14,
+		"nome_quadro_it" : "House Map",
+		"nome_quadro_en" : "House Map",
+		"tipo_quadro_id" : 4,
+		"dimensioni_quadro_id" : 1,
+		"immagine" : "14_Housemap.jpg",
+		"dimensioni_num" : "39 x 53",
+		"descrizione" : "Acquatinta e acquaforte su carta, 2023",
+		"descrizioni_en" : "Aquatint and Etching on paper, 2023"
+	},
+	{
+		"id_quadro" : 15,
+		"nome_quadro_it" : "Diary Investigations",
+		"nome_quadro_en" : "Diary Investigations",
+		"tipo_quadro_id" : 4,
+		"dimensioni_quadro_id" : 1,
+		"immagine" : "15_Diary_investigations1.jpg",
+		"dimensioni_num" : "17 x 12.5 ",
+		"descrizione" : "Acquatinta e acquaforte con Chine Collé su carta, 2022",
+		"descrizioni_en" : "Aquatint and Etching with Chine Collé on paper, 2022"
+	},
+	{
+		"id_quadro" : 16,
+		"nome_quadro_it" : "Diary Investigations",
+		"nome_quadro_en" : "Diary Investigations",
+		"tipo_quadro_id" : 4,
+		"dimensioni_quadro_id" : 1,
+		"immagine" : "15_Diary_investigations2.jpg",
+		"dimensioni_num" : "17 x 12.5 ",
+		"descrizione" : "Acquatinta e acquaforte con Chine Collé su carta, 2022",
+		"descrizioni_en" : "Aquatint and Etching with Chine Collé on paper, 2022"
+	},
+	{
+		"id_quadro" : 17,
+		"nome_quadro_it" : "The Chair",
+		"nome_quadro_en" : "The Chair",
+		"tipo_quadro_id" : 4,
+		"dimensioni_quadro_id" : 1,
+		"immagine" : "16_Chair.jpg",
+		"dimensioni_num" : "39 x 45",
+		"descrizione" : "Monotipo su carta, 2022",
+		"descrizioni_en" : "Monotype on paper, 2022"
+	},
+	{
+		"id_quadro" : 18,
+		"nome_quadro_it" : "Poetry Mapping",
+		"nome_quadro_en" : "Poetry Mapping",
+		"tipo_quadro_id" : 4,
+		"dimensioni_quadro_id" : 1,
+		"immagine" : "18_Map_poetry.jpg",
+		"dimensioni_num" : "40 x 45",
+		"descrizione" : "Monotipo, 2022",
+		"descrizioni_en" : "Monotype, 2022"
+	},
+	{
+		"id_quadro" : 19,
+		"nome_quadro_it" : "Movement Etching",
+		"nome_quadro_en" : "Movement Etching",
+		"tipo_quadro_id" : 4,
+		"dimensioni_quadro_id" : 1,
+		"immagine" : "19_Movement_Etching.jpg",
+		"dimensioni_num" : "18 x 24 ",
+		"descrizione" : "Acquaforte realizzata tenendo l’ago sulla lastra durante un viaggio in autobus di 3 ore, 2022",
+		"descrizioni_en" : "Etching made by holding needle on plate of 3h bus ride, 2022"
+	}
+]
