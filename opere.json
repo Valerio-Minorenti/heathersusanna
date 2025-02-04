@@ -194,8 +194,8 @@
 		"dimensioni_quadro_id" : 1,
 		"immagine" : "18_Map_poetry.jpg",
 		"dimensioni_num" : "40 x 45",
-		"descrizione" : "Monotipo, 2022",
-		"descrizioni_en" : "Monotype, 2022"
+		"descrizione" : "Monotipo su carta, 2022",
+		"descrizioni_en" : "Monotype on paper, 2022"
 	},
 	{
 		"id_quadro" : 19,
@@ -205,7 +205,7 @@
 		"dimensioni_quadro_id" : 1,
 		"immagine" : "19_Movement_Etching.jpg",
 		"dimensioni_num" : "18 x 24 ",
-		"descrizione" : "Acquaforte realizzata tenendo l’ago sulla lastra durante un viaggio in autobus di 3 ore, 2022",
-		"descrizioni_en" : "Etching made by holding needle on plate of 3h bus ride, 2022"
+		"descrizione" : "Acquaforte realizzata tenendo l'ago su lastra di zinco per tutta la durata del viaggio in autobus da Roma a Todi, 2022",
+		"descrizioni_en" : "Etching made by holding needle on zinc plate for duration of bus ride from Rome to Todi, 2022"
 	}
 ]
