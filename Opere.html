@@ -73,7 +73,7 @@
                             card.setAttribute('data-tipo', opera.tipo_quadro_id);
                             card.innerHTML = `
                                 <div class="card h-100">
-                                    <img class="card-img-top" src="${opera.immagine}" alt="${opera.nome_quadro_it}" style="max-width: 100%; max-height: 300px; object-fit: contain;">
+                                    <img class="card-img-top" src="${opera.immagine}" alt="${opera.nome_quadro_it}" style="max-width: 100%; max-height: 300px; object-fit: contain; cursor: pointer;">
                                     <div class="card-body p-4">
                                         <div class="text-center">
                                             <h5 class="card-title" style="height: 100px; overflow: hidden;">${opera.nome_quadro_it}</h5>
@@ -99,6 +99,16 @@
                         opera.style.display = 'none';
                     }
                 });
+            });
+            document.addEventListener('click', function(event) {
+                if (event.target.classList.contains('card-img-top')) {
+                    document.getElementById('overlay-img').src = event.target.src;
+                    document.getElementById('overlay').style.display = 'flex';
+                }
+            });
+
+            document.getElementById('overlay').addEventListener('click', function() {
+                this.style.display = 'none';
             });
         </script>
     </body>
