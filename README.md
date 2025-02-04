@@ -15,4 +15,15 @@ Una volta che hai salvato la foto non ti ressta che aggiungerla alla lista delle
 
 Le opere andranno sempre aggiunte come segue:
 
+{
+		"id_quadro" : 1,
+		"nome_quadro_it" : "Nap",
+		"nome_quadro_en" : "Nap",
+		"tipo_quadro_id" : 3,
+		"dimensioni_quadro_id" : 3,
+		"immagine" : "1_Nap.jpg",
+		"dimensioni_num" : "150 x 420",
+		"descrizione" : "Inchiostro e acquerello, 2024",
+		"descrizioni_en" : "Ink and Watercolor Pencil, 2024"
+	}
 
