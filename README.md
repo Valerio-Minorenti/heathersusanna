@@ -19,11 +19,11 @@ Le opere andranno sempre aggiunte come segue:
 		"id_quadro" : Vedi l'ultimo ID e fai +1 (ESEMPIO: se l'ultima foto è apartment complex e ha come ID 21,  tu qui scriverai 22,
 		"nome_quadro_it" : "Nome quadro in ITALIANO",
 		"nome_quadro_en" : "Nome quadro in INGLESE",
-		"tipo_quadro_id" : 2 o 3 o 4, (RICORDA:
-		"dimensioni_quadro_id" : 3,
-		"immagine" : "1_Nap.jpg",
-		"dimensioni_num" : "150 x 420",
-		"descrizione" : "Inchiostro e acquerello, 2024",
-		"descrizioni_en" : "Ink and Watercolor Pencil, 2024"
+		"tipo_quadro_id" : 2 o 3 o 4, (RICORDA: 2=Dipinti/Paintings, 3=Disegni/Drawings, 4= Stampe/printmaking
+		"dimensioni_quadro_id" : 1 o 2 3, (RICORDA: 1=piccolo, 2=medio , 3=Grande)
+		"immagine" : "NOME_QUADRO.jpg",
+		"dimensioni_num" : "Numero1 x numero2",
+		"descrizione" : "descrizione ITALIANA, anno",
+		"descrizioni_en" : "descrizione INGLESE , anno"
 	}
 
