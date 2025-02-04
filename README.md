@@ -16,10 +16,10 @@ Una volta che hai salvato la foto non ti ressta che aggiungerla alla lista delle
 Le opere andranno sempre aggiunte come segue:
 
 {
-		"id_quadro" : 1,
-		"nome_quadro_it" : "Nap",
-		"nome_quadro_en" : "Nap",
-		"tipo_quadro_id" : 3,
+		"id_quadro" : Vedi l'ultimo ID e fai +1 (ESEMPIO: se l'ultima foto è apartment complex e ha come ID 21,  tu qui scriverai 22,
+		"nome_quadro_it" : "Nome quadro in ITALIANO",
+		"nome_quadro_en" : "Nome quadro in INGLESE",
+		"tipo_quadro_id" : 2 o 3 o 4, (RICORDA:
 		"dimensioni_quadro_id" : 3,
 		"immagine" : "1_Nap.jpg",
 		"dimensioni_num" : "150 x 420",
