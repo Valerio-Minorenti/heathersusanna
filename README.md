@@ -25,5 +25,6 @@ Le opere andranno sempre aggiunte come segue:
 		"dimensioni_num" : "Numero1 x numero2",<br>
 		"descrizione" : "descrizione ITALIANA, anno",<br>
 		"descrizioni_en" : "descrizione INGLESE , anno"<br>
-	<br>}
+	<br>}<br>
+ Se vuoi aggiungere più quadri ti basterà fare la stessa cosa più volte
 
