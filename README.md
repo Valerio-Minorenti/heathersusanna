@@ -17,13 +17,13 @@ Le opere andranno sempre aggiunte come segue:
 
 {
 		"id_quadro" : Vedi l'ultimo ID e fai +1 (ESEMPIO: se l'ultima foto è apartment complex e ha come ID 21,  tu qui scriverai 22) <br>
-		"nome_quadro_it" : "Nome quadro in ITALIANO",
-		"nome_quadro_en" : "Nome quadro in INGLESE",
-		"tipo_quadro_id" : 2 o 3 o 4, (RICORDA: 2=Dipinti/Paintings, 3=Disegni/Drawings, 4= Stampe/printmaking
-		"dimensioni_quadro_id" : 1 o 2 3, (RICORDA: 1=piccolo, 2=medio , 3=Grande)
-		"immagine" : "NOME_QUADRO.jpg",
-		"dimensioni_num" : "Numero1 x numero2",
-		"descrizione" : "descrizione ITALIANA, anno",
-		"descrizioni_en" : "descrizione INGLESE , anno"
+		"nome_quadro_it" : "Nome quadro in ITALIANO",<br>
+		"nome_quadro_en" : "Nome quadro in INGLESE",<br>
+		"tipo_quadro_id" : 2 o 3 o 4, (RICORDA: 2=Dipinti/Paintings, 3=Disegni/Drawings, 4= Stampe/printmaking<br>
+		"dimensioni_quadro_id" : 1 o 2 3, (RICORDA: 1=piccolo, 2=medio , 3=Grande)<br>
+		"immagine" : "NOME_QUADRO.jpg",<br>
+		"dimensioni_num" : "Numero1 x numero2",<br>
+		"descrizione" : "descrizione ITALIANA, anno",<br>
+		"descrizioni_en" : "descrizione INGLESE , anno"<br>
 	}
 
