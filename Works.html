@@ -32,13 +32,25 @@
     <body id="page-top">
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a href="Opere.html"><img class="italian-flag-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1280px-Flag_of_Italy.svg.png" alt="Italian Flag" style="width: 50px;"></a>
+                <a href="Works.html"><img class="us-flag-image" src="us-flag.jpg" alt="US Flag" style="width: 50px;"></a>
                 <a class="navbar-brand ms-auto" href="#page-top">Heather Susanna</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menù<i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="Exhibitions.html">Exhibitions</a></li>
-                        <li class="nav-item"><a class="nav-link" href="About_and_Contact.html">About and Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="About_and_Contacts">About and Contacts</a></li>
+                        <li class="nav-item dropdown">
+                            <form id="filtro-form">
+                                <label for="tipo">Filter:</label>
+                                <select name="tipo" id="tipo">
+                                    <option value="all">All</option>
+                                    <option value="2">Drawings</option>
+                                    <option value="3">Paintings</option>
+                                    <option value="4">Printmaking</option>
+                                </select>
+                                <input type="submit" value="Filter">
+                            </form>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -51,7 +63,7 @@
         </section>
 
         <div id="overlay">
-            <img id="overlay-img" src="" alt="Enlarged Image">
+            <img id="overlay-img" src="" alt="Immagine ingrandita">
         </div>
 
         <div class="copyright py-4 text-center text-white" style="background-color: #808080;">
@@ -67,6 +79,7 @@
                         data.forEach(opera => {
                             let card = document.createElement('div');
                             card.className = 'col-lg-4 col-md-6 col-sm-12 mb-4 opera';
+                            card.setAttribute('data-tipo', opera.tipo_quadro_id);
                             card.innerHTML = `
                                 <div class="card h-100">
                                     <img class="card-img-top" src="${opera.immagine}" alt="${opera.nome_quadro_en}" style="max-width: 100%; max-height: 300px; object-fit: contain;">
@@ -83,19 +96,17 @@
                         });
                     });
             });
-        </script>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                let overlay = document.getElementById('overlay');
-                let overlayImg = document.getElementById('overlay-img');
-                document.addEventListener('click', function(e) {
-                    if (e.target.classList.contains('card-img-top')) {
-                        overlayImg.src = e.target.src;
-                        overlay.style.display = 'flex';
+
+            document.getElementById('filtro-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                let filtroTipo = document.getElementById('tipo').value;
+                let opere = document.querySelectorAll('.opera');
+                opere.forEach(opera => {
+                    if (filtroTipo === 'all' || opera.getAttribute('data-tipo') === filtroTipo) {
+                        opera.style.display = 'block';
+                    } else {
+                        opera.style.display = 'none';
                     }
-                });
-                overlay.addEventListener('click', function() {
-                    overlay.style.display = 'none';
                 });
             });
         </script>
