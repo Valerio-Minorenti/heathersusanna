@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /
+
+Allow: /$
+Allow: /Opere.html
+Allow: /Works.html
+Allow: /Biografia_e_Contatti.html
+Allow: /About_and_Contact.html
+Allow: /Exhibitions.html
+Allow: /Mostre.html
